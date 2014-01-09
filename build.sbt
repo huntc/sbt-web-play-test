@@ -16,4 +16,4 @@ play.Project.playScalaSettings
 
 JSHintPlugin.jshintSettings
 
-JsEngineKeys.engineType := JsEngineKeys.EngineType.Node
+//JsEngineKeys.engineType := JsEngineKeys.EngineType.Node
