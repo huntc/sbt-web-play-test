@@ -1,0 +1,26 @@
+{
+    "name": "test-jshint",
+    "version": "1.0.0",
+    "description": "A Grunt demo of JSHint and friends",
+    "main": "app/assets/a.js",
+    "directories": {
+        "test": "test"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/huntc/test-jshint.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/huntc/test-jshint/issues"
+    },
+    "homepage": "https://github.com/huntc/test-jshint",
+    "devDependencies": {
+        "grunt": "~0.4.2",
+        "grunt-contrib-jshint": "~0.8.0"
+    }
+}

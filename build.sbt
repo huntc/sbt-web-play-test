@@ -1,3 +1,4 @@
+import com.typesafe.jse.sbt.JsEnginePlugin.JsEngineKeys
 import com.typesafe.jshint.sbt.JSHintPlugin
 
 name := "test-jshint"
@@ -15,3 +16,4 @@ play.Project.playScalaSettings
 
 JSHintPlugin.jshintSettings
 
+JsEngineKeys.engineType := JsEngineKeys.EngineType.Node
