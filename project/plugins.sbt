@@ -8,9 +8,11 @@ resolvers ++= Seq(
     "Typesafe Snapshots Repository" at "http://repo.typesafe.com/typesafe/snapshots/"
     )
 
-addSbtPlugin("com.typesafe" % "sbt-jshint-plugin" % "1.0.0-SNAPSHOT")
+addSbtPlugin("com.typesafe.sbt" % "sbt-less" % "1.0.0-SNAPSHOT")
+
+addSbtPlugin("com.typesafe.sbt" % "sbt-jshint" % "1.0.0-SNAPSHOT")
 
 // The Typesafe repository
 resolvers += "Typesafe repository" at "http://repo.typesafe.com/typesafe/releases/"
 
-addSbtPlugin("com.typesafe.play" % "sbt-plugin" % "2.3-20131213005945Z")
+addSbtPlugin("com.typesafe.play" % "sbt-plugin" % "2.3-SNAPSHOT")

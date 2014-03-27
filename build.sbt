@@ -1,5 +1,7 @@
-import com.typesafe.jse.sbt.JsEnginePlugin.JsEngineKeys
-import com.typesafe.jshint.sbt.JSHintPlugin
+import play.PlayScala
+import PlayKeys._
+
+lazy val root = project.in(file(".")).addPlugins(PlayScala)
 
 name := "test-jshint"
 
@@ -12,8 +14,4 @@ libraryDependencies ++= Seq(
   ws
 )     
 
-play.Project.playScalaSettings
-
-JSHintPlugin.jshintSettings
-
-//JsEngineKeys.engineType := JsEngineKeys.EngineType.Node
+//engineType := EngineType.Node
