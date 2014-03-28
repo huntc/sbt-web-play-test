@@ -1,9 +1,8 @@
-import play.PlayScala
 import PlayKeys._
 
-lazy val root = project.in(file(".")).addPlugins(PlayScala)
+lazy val root = (project in file(".")).addPlugins(PlayScala)
 
-name := "test-jshint"
+name := "sbt-web-play-test"
 
 version := "1.0-SNAPSHOT"
 
