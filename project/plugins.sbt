@@ -12,6 +12,8 @@ addSbtPlugin("com.typesafe.sbt" % "sbt-less" % "1.0.0-SNAPSHOT")
 
 addSbtPlugin("com.typesafe.sbt" % "sbt-jshint" % "1.0.0-SNAPSHOT")
 
+addSbtPlugin("com.typesafe.sbt" % "sbt-rjs" % "1.0.0-SNAPSHOT")
+
 // The Typesafe repository
 resolvers += "Typesafe repository" at "http://repo.typesafe.com/typesafe/releases/"
 

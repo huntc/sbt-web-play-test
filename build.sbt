@@ -1,4 +1,5 @@
 import PlayKeys._
+import RjsKeys._
 
 lazy val root = (project in file(".")).addPlugins(PlayScala)
 
@@ -12,5 +13,7 @@ libraryDependencies ++= Seq(
   cache,
   ws
 )     
+
+baseUrl := "javascripts"
 
 //engineType := EngineType.Node
